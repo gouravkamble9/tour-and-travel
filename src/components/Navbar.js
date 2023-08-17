@@ -27,10 +27,10 @@ const Navbar = () => {
         <ul className={`${isOpen ? "nav-menu active" :"nav-menu"}`}>
             {MenuItem.map((item,index)=>(
                     <li key={index} >
-                    <a href={`${item.url}`} className={`${item.cName}`}> 
+                    <Link to={`${item.url}`} className={`${item.cName}`} onClick={()=>(setIsOpen(false),window.scrollTo(0,0))}> 
                     <i className={`${item.icon}`}></i>
                     {item.title}
-                    </a>
+                    </Link>
                 </li>
             ))}
             <button className='signUp'>Sign Up</button>
