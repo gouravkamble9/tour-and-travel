@@ -5,6 +5,12 @@ import { MenuItem } from './MenuItem'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [clicked,setClicked]=useState(MenuItem[0].title)
+
+    const handleclicked=(name)=>{
+      setClicked(name);
+    }
+
 
     const toggleMenu = () => {
       setIsOpen(!isOpen);
@@ -27,7 +33,7 @@ const Navbar = () => {
         <ul className={`${isOpen ? "nav-menu active" :"nav-menu"}`}>
             {MenuItem.map((item,index)=>(
                     <li key={index} >
-                    <Link to={`${item.url}`} className={`${item.cName}`} onClick={()=>(setIsOpen(false),window.scrollTo(0,0))}> 
+                    <Link to={`${item.url}`} className={`${item.cName} ${item.title === clicked ? "menu-clicked" :""}`} onClick={()=>(setIsOpen(false),window.scrollTo(0,0),handleclicked(item.title))}> 
                     <i className={`${item.icon}`}></i>
                     {item.title}
                     </Link>

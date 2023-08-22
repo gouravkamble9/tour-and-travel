@@ -45,6 +45,10 @@
     padding: .9rem 0 .2rem 0;
 }
 
+.t-card p{
+    text-align: justify;
+}
+
 @media screen and (max-width:555px){
     .trip{
         margin: 4rem 2rem;
