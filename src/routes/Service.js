@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import heroImg from '../assets/photo-1.jpeg'
+import heroImg from '../assets/pexels-ian-beckley-2440021.jpg'
 import Trip from '../components/Trip'
 
 function Service() {
