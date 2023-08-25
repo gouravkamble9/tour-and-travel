@@ -12,7 +12,7 @@ const Destination = () => {
       <h1>Popular Destination</h1>
       <p>Tours give you the opportunity to see a lot,within a time frame</p>
         <DestinationData
-        heading="Taal Volcano, Batangas"
+        heading="New Palace"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aut deserunt tempora obcaecati repellendus sapiente voluptatem doloremque nemo aliquam voluptatibus, fugit eveniet voluptate, culpa reiciendis soluta itaque totam, sequi dolores!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut dignissimos assumenda rerum ipsam doloremque in nihil debitis at hic tempora, atque excepturi."
         img1={moun1}
         img2={moin2}

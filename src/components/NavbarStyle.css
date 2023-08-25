@@ -82,6 +82,7 @@ button:hover{
     .navbar-items{
         z-index: 1;
     }
+    
     .nav-menu{
         display: flex;
         flex-direction: column;
@@ -100,7 +101,7 @@ button:hover{
         border-radius: 13px;
        
     }
-
+    
     .nav-menu.active{
         left: 0;
         opacity: 1;

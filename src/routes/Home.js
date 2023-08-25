@@ -11,9 +11,9 @@ const Home = () => {
         <Hero
         cName="hero" 
         img={heroImg} 
-        title="Your Journey Your Story"
-        text="Choose Your Favourite Destination"
-        btnText="Travel Plan"
+        title="Welcome to Kolhapur"
+        text="Where Culture Meets Heritage"
+        btnText="Explore"
         url="/"
         btnClass="show"
         />
