@@ -9,7 +9,7 @@ const ContactUs = () => {
             <input type="text" placeholder='Name'/>
             <input type="text" placeholder='Email'/>
             <input type="text" placeholder='Subject'/>
-            <textarea placeholder='message' rows="4"></textarea>
+            <textarea placeholder='Message' rows="4"></textarea>
             <button>Send Message</button>
         </form>
     </div>
