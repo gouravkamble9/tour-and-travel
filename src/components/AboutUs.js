@@ -68,8 +68,7 @@ const AboutUs = () => {
         range of meticulously crafted itineraries and find the one that
         resonates with your wanderlust. Whether you're yearning for the tranquil
         beaches of Bali, the bustling markets of Marrakech, the majestic
-        landscapes of Patagonia, or the historical charm of Kyoto, [Your Company
-        Name] is here to make it happen. Join us in discovering the world's
+        landscapes of Patagonia, or the historical charm of Kyoto, KOP is here to make it happen. Join us in discovering the world's
         beauty, one adventure at a time. Your dream vacation awaits – let's
         create memories together. Let's explore, experience, and embrace the
         world – with KOP.
