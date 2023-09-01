@@ -18,7 +18,7 @@ const Navbar = () => {
     
   return (
     <nav className='navbar-items'>
-        <h1 className='navbar-logo'>KOP</h1>
+        <Link to="/" style={{textDecoration:"none"}}><h1 className='navbar-logo'>KOP</h1> </Link>
 
 
         <div className='menu-icons'>

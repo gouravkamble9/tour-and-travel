@@ -18,8 +18,10 @@
 .navbar-logo{
     color: #222;
     font-size: 2rem;
-
+    cursor: pointer;
+    text-decoration: none;
 }
+
 
 .nav-menu{
     display: flex;
